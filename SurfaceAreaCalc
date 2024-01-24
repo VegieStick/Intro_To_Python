@@ -1,0 +1,38 @@
+
+#string
+Welcome_Text = "Hello, welcome to the Surface area calculator for hexagonal prisms."
+
+
+#variable for formula
+Sqrt_num = 3
+
+
+#Square root Formula
+sqrt = Sqrt_num ** .5
+
+
+#Output 
+print(Welcome_Text)
+
+#Space
+print("")
+
+#input 
+a = float(input("Enter the base edge: "))
+
+h = float(input("Enter Height: "))
+
+
+#Formula
+Surface_Area_Formula = 6*a*h+3*sqrt*a**2
+
+
+#Rounded to only get the second decimal point, (personal preference)
+Rounded_Value = round(Surface_Area_Formula,2)
+
+#Space 
+print("")
+print("The surface area for the hexagonal prism is: ",Rounded_Value)
+
+
+
