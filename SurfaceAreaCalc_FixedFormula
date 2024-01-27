@@ -1,0 +1,23 @@
+
+#output 
+Welcome_Text = "Hello, welcome to the Surface area calculator for hexagonal prisms."
+print(Welcome_Text)
+
+
+
+#input
+a = float(input("Enter the base edge:"))
+
+h = float(input("Enter Height:"))
+
+
+
+#Processing 
+Surface_Area_Formula = 6*a*h+3*3**0.5*a**2
+
+result=Surface_Area_Formula
+
+
+#output
+print("The surface area for the hexagonal prism is:",format(result,'.3f'),sep='')
+
