@@ -161,3 +161,34 @@ def myfunc():
 myfunc()
 
 print("python is " + x )
+
+
+
+# Without Format
+
+amount_due = 5000.0 
+monthly_payment = amount_due / 12.0 
+    
+print("The monthly payment is",monthly_payment, sep= '--')
+
+
+# With Format .5 controls decimal point
+
+amount_due = 5000.0 
+monthly_payment = amount_due / 12.0 
+    
+print("The monthly payment is:", format(monthly_payment,'.5f'),sep=' ')
+
+
+#Testing out spaces 
+
+print('one','two', sep=' ')
+
+
+#Testing end='\n'
+
+print('Hello',end='\n')
+print('Test',end='\n')
+print('one',end='\n')
+
+
